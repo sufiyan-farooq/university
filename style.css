@@ -307,12 +307,308 @@ color: #90A3BF;
     box-shadow:  rgb(16, 88, 233) 0px 5px 30px;
  }
 
+ .pricing-box{
+    background-color: #F3F5F7;
+    width: 90%;
+    height: 650px;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
 
+ }
+ .popular-sec{
+    display: flex;
+    justify-content: space-between;
+ }
+ .popular-btn button{
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 13px;
+    font-family: PlusJakartaSans;
+
+ }
+ .price{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+ }
+ .logo img{
+    width: 24px;
+ }
+ .text h4{
+    font-family: PlusJakartaSansBold;
+    font-size: 28px;
+    margin-top: -2px;
+ }
+.perfect-plan{
+   color:  #596780;
+   font-family: PlusJakartaSansmd;
+   font-size: 13px;
+   margin-top: 10px;
+   padding-left: 30px;
+
+
+}
+
+.month-price h2{
+    font-size: 35px;
+ font-family: PlusJakartaSansbold;
+ margin-top: 24px;
+ padding-left: 30px;
+
+
+}
+
+.month-price span{
+    font-family: PlusJakartaSansmd;
+
+    color:  #596780;
+    font-size: 20px;
+    
+
+}
+.pricing-description p{
+font-size: 12px;
+font-family: PlusJakartaSansmd;
+color: #1A202C;
+margin-top: 24px;
+padding-left: 30px;
+}
+
+.pricing-links ul{
+list-style: none;
+padding-top: 25px;
+
+}
+.pricing-links ul li{
+    font-size: 15px;
+    margin-top: 22px;
+    font-family: PlusJakartaSansmd;
+    
+}
+.pricing-links li i {
+    background-color: #9CD323;
+    color: white;
+    border-radius: 50%;
+    padding: 5px ; 
+    font-size: 10px;
+  }
+  #cross-sign{
+    color: #596780;
+  }
+  #cross-sign i{
+    background-color: #596780;
+  }
+  
+  .price-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price-btn button{
+    background-color: #155eef;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+    border: 1px solid #155eef;
+    font-family: PlusJakartaSansmd;
+    width: 75%;
+
+  }
+.price-btn button:hover{
+     background-color: #F3F5F7;
+    
+    border: 1px solid #155eef;
+    color: #155eef;
+}
+.pricing-heading{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.pricing-heading h1{
+    font-family: PlusJakartaSansBold;
+    font-size: 35px;
+}
+.pricing-heading p{
+    color: #596780;
+    margin-top: 20px;
+    font-family: PlusJakartaSans;
+    font-size: 18px;
+}
+.pricing-cards{
+margin-top: 70px;
+}
+.demo-section{
+    margin-top: 70px;
+    background-color: #041328;
+    width: 100%;
+    height: fit-content;
+    padding-top: 40px;
+    padding: 50px;
+    position: relative; 
+
+}
+.demo-content{
+    padding-top: 20px;
+  
+    
+}
+.demo-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.demo-small-head h5{
+    font-size: 19px;
+  color: #155eef;
+  font-family: PlusJakartaSansmd;
+}
+.demo-head h1{
+    color: #fff;
+    font-family: PlusJakartaSansBold;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.demo-text p{
+    color: #596780;
+    margin-top: 20px;
+    font-family: PlusJakartaSans;
+
+}
+.demo-btn{
+    padding-top: 20px;
+}
+.demo-image img {
+    width: 550px;
+    height: 420px;
+    position: absolute; /* Change from fixed to absolute */
+    bottom: 0; /* Align to the bottom */
+    right: 0; /* Align to the right */
+}
+
+footer{
+    background: #F3F5F7;
+    color: #041328;
+    position: relative;
+    width: 100%;
+}
+footer img{
+    width: 250px;
+    margin-top: 43px;
+}
+footer span{
+    margin-top: 25px;
+}
+footer h6{
+    color: #041328;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+footer .col-3{
+    padding-left: 35px;
+}
+footer a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: #041328;
+}
+footer a:hover{
+    color: #f5871f;
+}
+footer .fa-whatsapp{
+    margin-right: 5px;
+}
+.copyright{
+    color: #041328;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    height: 45px;
+    background-color: #F3F5F7;
+    padding-top: 15px;
+}
+.footer-container{
+    display: flex;
+}
+.navlinks{
+    margin-left:170px;
+}
+.follow-us-ul{
+    margin-left:50px;
+
+}
+.navlinks li a:hover{
+    color: #155eef !important;
+   }
+   
+.follow-us-ul li a:hover{
+   color: #155eef !important;
+  }
+  .bottom-conditions a{
+    font-family: PlusJakartaSansmd;
+    margin-left: 20px;
+  }
+  .bottom-conditions a:hover{
+color: #000;
+  }
+  .navlinks-head {
+   margin-top: 40px; 
+    font-family: PlusJakartaSansBold;
+     margin-left: 170px;
+  }
+  .follow-us{
+    margin-top: 40px; 
+    font-family: PlusJakartaSansBold;
+     margin-left: 50px;
+  }
+
+@media only screen and (max-width: 600px) {
+    footer .col-3{
+     padding-left:0;
+ }
+ .footer-container{
+      flex-direction: column;
+  }
+  .footer-container .col-3{
+      width: 100% !important;
+  }
+  .copyright {
+        font-size: 11px;
+    }
+}
 
 
 @media screen and (max-width:990px) {
     .cards{
         text-align: center;
+    }
+    .demo-image img{
+        display: none;
     }
 }
 
@@ -334,6 +630,31 @@ color: #90A3BF;
     .hero-text{
         font-size: 14px;
     }
+    .text-md-left {
+        text-align: center !important;
+        margin: 0px;
+      }
+      .navlinks-head{
+        margin: 0px;
+      }
+    
+      .text-left {
+        text-align: center !important;
+        margin: 0px;
+      }
+    
+      .navlinks {
+        margin: 0px;
+        text-align: center !important;
+      }
+      .follow-us{
+        text-align: center !important;
+        margin: 0px;
+      }
+      .follow-us-ul{
+        text-align: center !important;
+        margin: 0px;
+      }
 }
 
 @media screen and (max-width:570px) {
